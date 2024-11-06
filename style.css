@@ -1,0 +1,71 @@
+body {
+    font-family: 'Merienda', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/fond.avif);
+    background-size: cover;
+}
+header {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    margin-right: 5rem;}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+li:hover{
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    color: #ff5722;
+    transition: .4s;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.product {
+    background: rgba(255, 255, 255, 0.678);
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.product img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+footer {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
